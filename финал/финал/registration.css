@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body{
+        font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+    background-image: url(img/fon.webp);
+}
+.container{
+    max-width: 1000px;
+    margin:  auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    margin-bottom: 100px;
+}
+.logo:hover{
+    font-family: emoji;
+    transition: 0.75s;
+    transform: scale(1.1);
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #3700ad;
+    border: 1px solid #d9d9d9;
+box-sizing: border-box;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+border-radius: 2px;
+color: #fff;
+font-size: 18px;
+line-height:24px;
+text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+.button:hover{
+    background: linear-gradient(0.01deg, #4c3373 0.01%, rgba(106, 40, 187, 0) 95.44%);
+    color: #000000;
+    font-family: emoji;
+    transition: 0.75s;
+    transform: scale(1.1);
+}
+.button-primary {
+    margin-right: 10px; 
+}
+
+
+.footer{
+    padding: 60px 0;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav{
+    margin-left: 35px;
+    margin-right: auto;
+}
+.footer-link{
+    display: inline-block;
+    color: #595959;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+    text-decoration: none;
+}
+.footer-link:not(:last-child){
+    margin-right: 15px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-link:not(:last-child){
+    margin-right: 21px;
+}
+
+
+.reg {
+    height: 55px;
+    width: 100%;
+line-height: 56px;
+border-radius:  5px;
+font-size: 30px;
+text-align: center;
+font-weight: normal;
+}
+.refister-form-container {
+    background: linear-gradient(0.01deg, #4c3373 0.01%, rgba(106, 40, 187, 0) 95.44%);
+	border-radius: 10px;	
+	margin: 150px auto;
+	width: 500px;
+	font-size: 35px;
+  box-shadow:  0px 30px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.form-fieids {
+    top: 20px;
+    text-align: center;
+    position: relative;
+    top: -9px; 
+    font-size: 69px;
+}
+.fieids {
+    width: 82%;
+    height: 41px;
+    border: 1px solid #7242db;
+    font-size: 19px;
+    border-radius: 3px;	
+    padding: 10px;
+}
+.fieid {
+    width: 29%;
+    height: 41px;
+    font-size: 18px;
+    border-radius: 5px;	
+    border: 1px solid #7242db;
+}
+
+.form-fieids-enter {
+    top: 20px;
+    text-align: center;
+    position: relative;
+    top: -9px; 
+    font-size: 82px;
+}
+.footer-enter{
+    padding: 100px 0;
+}
+
+
+.nickname{
+    margin-left: 620px;
+    margin-right: auto;
+}

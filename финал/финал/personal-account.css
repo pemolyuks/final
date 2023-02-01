@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+body{
+        font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+    background-image: url(img/fon.webp);
+}
+.container{
+    max-width: 1000px;
+    margin:  auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    margin-bottom: 100px;
+}
+.logo:hover{
+    font-family: emoji;
+    transition: 0.75s;
+    transform: scale(1.1);
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #3700ad;
+    border: 1px solid #d9d9d9;
+box-sizing: border-box;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+border-radius: 2px;
+color: #fff;
+font-size: 18px;
+line-height:24px;
+text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+.button:hover{
+    background: linear-gradient(0.01deg, #4c3373 0.01%, rgba(106, 40, 187, 0) 95.44%);
+    color: #000000;
+    font-family: emoji;
+    transition: 0.75s;
+    transform: scale(1.1);
+}
+.button-primary {
+    margin-right: 10px; 
+}
+
+.footer{
+    padding: 60px 0;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav{
+    margin-left: 35px;
+    margin-right: auto;
+}
+.footer-link{
+    display: inline-block;
+    color: #595959;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+    text-decoration: none;
+}
+.footer-link:not(:last-child){
+    margin-right: 15px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-link:not(:last-child){
+    margin-right: 21px;
+}
+
+
+.reg {
+    height: 55px;
+    width: 100%;
+line-height: 56px;
+border-radius:  5px;
+font-size: 30px;
+text-align: center;
+font-weight: normal;
+}
+
+.form-fieids-enter {
+    top: 20px;
+    text-align: center;
+    position: relative;
+    top: -9px; 
+    font-size: 82px;
+}
+.footer-enter{
+    padding: 100px 0;
+}
+
+
+.nickname{
+    margin-left: 620px;
+    margin-right: auto;
+}
+
+
+
+.personal-form-container {
+    background: linear-gradient(0.01deg, #4c3373 0.01%, rgba(106, 40, 187, 0) 95.44%);
+	border-radius: 100px;	
+	margin: 150px auto;
+	width: 900px;
+	font-size: 35px;
+  box-shadow:  0px 30px 10px 0px rgba(0, 0, 0, 0.3);
+  height: 650px;
+}
+.form-fieids-personal {
+    top: 20px;
+    text-align: center;
+    position: relative;
+    top: -5px; 
+    font-size: 52px;
+}
+.card{
+    background-image: url(img/macao.jpg);
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+border-radius: 100px;
+overflow: hidden;
+margin-bottom: 20px;
+flex-basis: 81%;
+text-decoration: none;
+align-items: center;
+width: 95%;
+margin-left: 22px;
+}
+.card-1{
+    background-image: url(img/paris-3.jpg);
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+border-radius: 100px;
+overflow: hidden;
+margin-bottom: 20px;
+flex-basis: 81%;
+text-decoration: none;
+align-items: center;
+width: 95%;
+margin-left: 22px;
+}
+.card-2{
+    background-image: url(img/rim-1.png);
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+border-radius: 100px;
+overflow: hidden;
+margin-bottom: 20px;
+flex-basis: 81%;
+text-decoration: none;
+align-items: center;
+width: 95%;
+margin-left: 22px;
+}
+.card-3{
+    background-image: url(img/vena-1.jpg);
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+border-radius: 100px;
+overflow: hidden;
+margin-bottom: 20px;
+flex-basis: 81%;
+text-decoration: none;
+align-items: center;
+width: 95%;
+margin-left: 22px;
+}
+.card-text{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: -23px;
+}
+.card-tag{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: white;
+background: #262626;
+border-radius: 2px;
+padding: 1px 8px;
+}
+.card-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.card-price-bold{
+    color: rgb(0, 0, 0);
+font-size: 29px;
+line-height: 12px;
+margin: 0;
+margin-left: -555px;
+}
+.button-card-text {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    margin-left: 12px;
+}
+.butto{
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    background: #3700ad;
+    border: 3px solid #d9d9d9;
+box-sizing: border-box;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+border-radius: 22px;
+color: #fff;
+margin-left: 690px;
+margin-top: -120px;
+}
+
